@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion  rootProject.ext.compileSdkVersion
+    compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
@@ -28,4 +28,5 @@ dependencies {
     compile "com.android.support:design:$rootProject.ext.supportLibraryVersion"
 
     compile "com.jakewharton:butterknife:$rootProject.ext.butterknifeVersion"
+    compile 'com.android.support:support-v4:23.4.0'
 }
